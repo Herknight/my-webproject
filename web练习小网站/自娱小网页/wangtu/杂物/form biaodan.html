@@ -1,0 +1,85 @@
+<!--声明类文档-->
+<!doctype html>
+<html>
+	<!--声明网页头部-->
+	<head>
+		<!--声明网页标题-->
+		<title>这是我的第一张网页标题</title>
+		<!--声明网页编码格式-->
+		<meta charset="utf-8">
+	</head>
+	<!--声明网页主体-->
+	<body>
+		<form action="http://176.233.9.68/8_login.php">
+		    <h3>文本框-用户名</h3>
+			<input type="text" name="uname" value="root" placeholder="请输入用户名" >
+			<h3>密码框-密码</h3>
+			<input type="password" name="upwd">
+		    <h3>提交按钮</h3>
+			<input type="submit">
+			<h3>重置按钮</h3>
+			<input type="reset">
+		 </form>
+		  <form action="">
+		     <h3>单选按钮</h3>
+			 请选择您的性别：
+			 <input type="radio" name="gender" value="man">男			 
+			 <input type="radio" name="gender" value="woman">女
+			 <h3>多选框</h3>
+			 请选择您的爱好：
+			 <input type="checkbox" name="hobby" value="eat">吃		
+			 <input type="checkbox" name="hobby" value="drink">喝
+			 <input type="checkbox" name="hobby" value="paly">玩
+			 <input type="checkbox" name="hobby" value="happy">乐			 
+			 <h3>提交按钮</h3>
+             <input type="submit">
+		 </form>
+		 <form action="http://176.233.9.68/05_file.php" enctype="multipart/form-data" method="post" >
+		 <h3>文件</h3>
+		 <input type="file" name="">
+		 <h3>提交按钮</h3>
+		 <input type="submit">
+		 </form>
+		 <div style="align:center; height:1000px" >
+		 <h3>名著导读</h3>
+		 <a name="NO1">第一页</a>
+		 </div>
+		 <div style="align:center; height:1000px">
+         <h3>名著导读</h3>
+		 <p id="NO2">第二页</p>
+		 </div>
+		 <div style="align:center; width:500px; height:900px;background:#66ffcc ">
+		 </div>
+
+		 <table  width="500px" height="300px" align="center" cellspacing="0px" cellpadding="5px" border="1px" >
+		 	<tr >
+		 		<th rowspan="5" >经典名著</th>
+		 		<td bgcolor="#00ffff" ><b>名著名称</b></td>
+		 		<th  bgcolor="#00ffff"   height="25px"> <b style="color:red;">代表人物</b></th>
+		 	</tr>
+		 	<tr>
+		 		<td><a href="#NO1">西游记</a></td>
+		 		<td>孙悟空</td>
+		 		
+		 	</tr>
+		 	<tr>
+		 		<td><a href="#NO1">水浒传</a></td>
+		 		<td>鲁智深</td>
+		 		
+		 	</tr>
+		 	<tr>
+		 		<td><a href="#NO2">红楼梦</a></td>
+		 		<td>林黛玉</td>
+		 		
+		 	</tr>
+		 	<tr>
+		 		<td><a href="#NO2">三国演义</a></td>
+		 		<td>刘备</td>
+		 	</tr>
+		 </table>
+		 <a href="#">返回顶部
+		 </a>
+		
+	</body>
+</html>	
+
